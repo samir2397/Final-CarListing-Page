@@ -1,4 +1,4 @@
-trol*{
+*{
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
@@ -72,6 +72,31 @@ trol*{
 }
 #model{
     padding-bottom: 60px;
+    .carSlide{
+        position: relative;
+        .pit-bots{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            bottom: 0;
+            .pit-bot{
+                margin: 10px 5px;
+                width: 20%;
+                border-bottom: 3px solid #fff;
+                justify-content: center;
+
+        }
+        }
+        .slide-item{
+          display: none;
+            &.caractive{
+              display: initial;
+            }
+        }
+    }
+    
     .add{
         button{
             background-color: red;
@@ -100,7 +125,7 @@ trol*{
     .inp{
         .orderby{
             width: 20%;
-            height: 50px;       
+            height: 50px;    
         }
     }
     .list{

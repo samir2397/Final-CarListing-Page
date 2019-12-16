@@ -1,4 +1,4 @@
-trol* {
+* {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0%;
@@ -88,6 +88,38 @@ trol* {
 
 #model {
   padding-bottom: 60px;
+}
+
+#model .carSlide {
+  position: relative;
+}
+
+#model .carSlide .pit-bots {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  bottom: 0;
+}
+
+#model .carSlide .pit-bots .pit-bot {
+  margin: 10px 5px;
+  width: 20%;
+  border-bottom: 3px solid #fff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#model .carSlide .slide-item {
+  display: none;
+}
+
+#model .carSlide .slide-item.caractive {
+  display: initial;
 }
 
 #model .add button {
