@@ -203,6 +203,58 @@
   background-color: #3e3e3e;
   color: #fff;
   border-style: none;
+  border: 1px solid #3e3e3e;
+  cursor: pointer;
+}
+
+#model .inp-post .post .opt .orderby:hover {
+  background-color: #111;
+}
+
+#model .inp-post .ck {
+  padding-top: 25px;
+}
+
+#model .inp-post .ck .chk {
+  padding-top: 5px;
+}
+
+#model .inp-post .rng {
+  padding-top: 10px;
+}
+
+#model .inp-post .rng .rn p {
+  text-align: center;
+  color: #928f8f;
+}
+
+#model .inp-post .rng .rn .slider {
+  width: 100%;
+}
+
+#model .inp-post .rng .rn .pr h5 {
+  font-size: 18px;
+}
+
+#model .inp-post .bt {
+  padding-top: 50px;
+}
+
+#model .inp-post .bt button {
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f82e2e;
+  color: white;
+  border-style: none;
+}
+
+#model .inp-post .bt button:hover {
+  background-color: red;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-box-shadow: 0 0 20px 8px #7a0202;
+          box-shadow: 0 0 20px 8px #7a0202;
 }
 
 #footer {

@@ -164,11 +164,55 @@
             background-color: #3e3e3e;
             color: #fff;
             border-style: none;
+            border: 1px solid #3e3e3e;
+            cursor: pointer;
+            &:hover{
+                background-color: #111;
+            }
         } 
+         } 
+        }
+        .ck{
+            padding-top: 25px;
+          .chk{
+           padding-top: 5px;
+       }
+        }
+      
+        .rng{
+            padding-top: 10px;
+            .rn{
+                p{
+                    text-align: center;
+                    color: #928f8f;
+                }
+                .slider{
+                    width: 100%; 
+                }
+                .pr{
+                    h5{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+        .bt{
+            padding-top: 50px;
+             button{
+            width: 100%;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: #f82e2e;
+            color: white;
+            border-style: none;
+            &:hover{
+                background-color: red;
+                transition: 0.3s;
+                box-shadow: 0 0 20px 8px rgb(122, 2, 2);
+            }
         }
         }
        
-        
     }
 }
 #footer{ 
